@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin:50px auto;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.ludo{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: cadetblue;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.child{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.child img{
+  -o-transform: rotate3d(45deg);
+  -webkit-transform: rotate3d(45deg);
+  -moz-transform: rotate3d(45deg);
+  -ms-transform: rotate3d(45deg);
+  transform: rotate3d(45deg);
+}
+button{
+  background-color: rgba(232, 241, 221, 0.425);
+  padding: 12px 24px;
+  border-radius: 10px;
+  outline: 0;
+  border: none;
+  font-size: medium;
+  color: aliceblue;
+  font-weight: 600 ;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 16px;
+}
+button:hover{
+  background-color: chocolate;
+}
